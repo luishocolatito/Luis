@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundWave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- ================= NAVEGACIÓN ================= -->
+    <nav class="bg-white shadow-sm flex justify-between p-4 items-center">
+
+        <!-- Logo -->
+        <div class="text-2xl font-extrabold text-blue-600 tracking-tighter uppercase italic">
+            SoundWave
+        </div>
+
+        <!-- Menú Desktop -->
+        <ul class="hidden md:flex gap-6 font-medium text-gray-600 items-center">
+            <li class="hover:text-blue-600 cursor-pointer transition-colors">
+                Inicio
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer transition-colors">
+                Premium
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer transition-colors">
+                Descargar
+            </li>
+            <li>
+                <button class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 hover:shadow-lg transition-all transform hover:scale-105">
+                    Iniciar Sesión
+                </button>
+            </li>
+        </ul>
+
+        <!-- Menú Móvil -->
+        <div class="block md:hidden text-3xl cursor-pointer text-blue-600">
+            ☰
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <header class="bg-slate-900 text-white text-center py-16 md:py-32 px-4 flex flex-col items-center">
+
+        <h1 class="text-4xl lg:text-6xl font-black mb-6 max-w-4xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+            La música que amas, sin interrupciones.
+        </h1>
+
+        <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl font-light">
+            Escucha millones de canciones y podcasts gratis. Sube a Premium para disfrutar en modo offline como un verdadero Rockstar.
+        </p>
+
+        <button class="bg-fuchsia-500 text-white font-black uppercase tracking-widest text-lg px-10 py-4 rounded-full shadow-[0_0_20px_rgba(217,70,239,0.5)] hover:bg-fuchsia-400 hover:-translate-y-1 transition-all">
+            Obtén 1 mes Gratis
+        </button>
+
+    </header>
+
+    <!-- ================= CARACTERÍSTICAS ================= -->
+    <section class="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mt-10">
+
+        <!-- Tarjeta 1 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-cyan-400 text-center hover:-translate-y-2 transition-transform cursor-pointer">
+            <div class="text-5xl mb-4">🎧</div>
+            <h3 class="font-black text-xl mb-2 uppercase text-slate-800">
+                Audio HQ
+            </h3>
+            <p class="text-gray-500">
+                Calidad de estudio directo a tus audífonos.
+            </p>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-fuchsia-500 text-center hover:-translate-y-2 transition-transform cursor-pointer">
+            <div class="text-5xl mb-4">🚫</div>
+            <h3 class="font-black text-xl mb-2 uppercase text-slate-800">
+                Sin Anuncios
+            </h3>
+            <p class="text-gray-500">
+                Disfruta tu música sin cortes comerciales.
+            </p>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-yellow-400 text-center hover:-translate-y-2 transition-transform cursor-pointer">
+            <div class="text-5xl mb-4">✈️</div>
+            <h3 class="font-black text-xl mb-2 uppercase text-slate-800">
+                Modo Offline
+            </h3>
+            <p class="text-gray-500">
+                Descarga tu música y escúchala en el avión.
+            </p>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400 text-center hover:-translate-y-2 transition-transform cursor-pointer">
+            <div class="text-5xl mb-4">🎙️</div>
+            <h3 class="font-black text-xl mb-2 uppercase text-slate-800">
+                Podcasts
+            </h3>
+            <p class="text-gray-500">
+                Miles de programas originales y exclusivos.
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="bg-slate-950 text-slate-500 text-center py-10 mt-16 font-medium">
+        <p>&copy; 2026 SoundWave Music. Todos los derechos reservados al Tour.</p>
+    </footer>
+
+</body>
+</html>
